@@ -1,0 +1,197 @@
+nav{
+    height: 100px;
+    background-color: lightblue;
+    text-align: center;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav>p{
+    color: black;
+}
+
+#web{
+    font-size: 80px;
+}
+
+.ubuntu-light {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+  
+.ubuntu-regular {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.ubuntu-medium {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+  
+.ubuntu-bold {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+  
+.ubuntu-light-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+  
+.ubuntu-regular-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+  
+.ubuntu-medium-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+  
+.ubuntu-bold-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.greeting-message > p{
+    font-size: 40px;
+    text-align: center;
+    padding: 50px;
+    color: black;
+    background-color:lightblue;
+}
+
+hr{
+    border: 1px solid black;
+}
+
+.about-me>div>h1{
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+
+.about-me + div + hr{
+    border: 0.5px solid black;
+    display: inline-block;
+}
+
+img{
+    /* height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin-left: 100px;
+    margin-top: 50px;
+    padding-bottom: 30px;
+    margin-right: 20px; */
+    height: 500px;
+    border-radius: 50%;
+    margin-bottom: 40px;
+    margin-left: 30px;
+}
+
+.flex-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.flex-item p{
+    padding-top: 100px;
+}
+
+.achievements{
+    background-color:black;
+}
+
+.achievements>h1{
+    color: white;
+    font-size: 60px;
+}
+
+.achievements>ol{
+    color: rgb(0, 0, 0);
+}
+
+ol{
+    margin-left: 60px;
+    font-size: 40px;
+}
+
+li{
+    color: white;
+}
+
+ol>li>ul>li{
+    margin: 10px;
+}
+
+.contact{
+    background-color: lightskyblue;
+    padding-top: 10px;
+}
+.bx{
+    font-size: 50px;
+    margin-left: 40px;
+}
+.contact p{
+    display: inline;
+    margin-left: 40px;
+}
+.copyright{
+    margin-top: 20px;
+    background-color: aliceblue;
+}
+a:hover{
+    color: black;
+}
+/* .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown button{
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown .dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown .dropdown-content a{
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown .dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+} */
+
